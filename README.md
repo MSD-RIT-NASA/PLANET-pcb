@@ -98,10 +98,10 @@ Status Rail Connector | Connector:Conn_01x05_Female | fivePinConn | ---
 
 Project Link: [https://github.com/MSD-RIT-NASA](https://github.com/MSD-RIT-NASA)
 
+PCB Dimensions: 71.394mm x 41.148mm
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [block-diagram]: images/schematic.png
-

@@ -33,7 +33,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#Component List">Component List</a></li>
+    <li><a href="#component-list">Component List</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -47,6 +47,7 @@
 <!-- [![Bottom of PCB][product-bottom]]() -->
 
 About the Project
+PCB Dimensions: 71.394mm x 41.148mm
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

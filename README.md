@@ -107,5 +107,5 @@ PCB Dimensions: 71.394mm x 41.148mm
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [block-diagram]: images/schematic.png
-[front-3dview]: images/front_v1.png
-[back-3dview]: images/back_v1.png
+[front-3dview]: images/front_v1.PNG
+[back-3dview]: images/back_v1.PNG

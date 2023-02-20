@@ -48,6 +48,9 @@
 
 About the Project
 
+[![Front of PCB][front-3dview]]()
+[![Back of PCB][back-3dview]]()
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -104,3 +107,5 @@ PCB Dimensions: 71.394mm x 41.148mm
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [block-diagram]: images/schematic.png
+[front-3dview]: images/front_v1.PNG
+[back-3dview]: images/back_v1.PNG

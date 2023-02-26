@@ -1,4 +1,4 @@
-(footprint "18Ω" (version 20211014) (generator pcbnew)
+(footprint "150Ω" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 61D27C92)
   (attr through_hole)
@@ -6,11 +6,11 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 373c751e-6b1f-489c-87af-fa5cc1dd5dee)
   )
-  (fp_text value "18Ω" (at 0 6) (layer "F.Fab") hide
+  (fp_text value "150Ω" (at 0 6) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 58099ffb-fcef-43e9-8112-6e49f3edfe68)
   )
-  (fp_text user "18Ω" (at 2 0 90) (layer "F.SilkS")
+  (fp_text user "150Ω" (at 2 0 90) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f6f3fdb6-7bd6-4bfc-a342-88f2e8f23037)
   )

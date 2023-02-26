@@ -1,4 +1,4 @@
-<div id="top"></div>
+ <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -34,6 +34,10 @@
       </ul>
     </li>
     <li><a href="#Component List">Component List</a></li>
+    <li><a href="#schematic">Schematic</a></li>
+    <li><a href="#pcb-layout">PCB Layout</a></li>
+    <li><a href="#dimensions">Dimensions</a></li>
+    <li><a href="#order details">Order Details</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -43,10 +47,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About the Project
 
-[![Block Diagram][block-diagram]]()
-<!-- [![Bottom of PCB][product-bottom]]() -->
+Project Link: [https://github.com/MSD-RIT-NASA](https://github.com/MSD-RIT-NASA)
 
-About the Project
 
 [![Front of PCB][front-3dview]]()
 [![Back of PCB][back-3dview]]()
@@ -57,10 +59,10 @@ About the Project
 
 ### Built With
 
-The pcb and schematic were designed in KiCad and ordered on OSHPark
+The pcb and schematic were designed in KiCad and ordered on JLCPCB
 
 * [KiCad](https://www.kicad.org/)
-* [OSHPark]()
+* [JLCPCB](https://jlcpcb.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -71,9 +73,8 @@ The pcb and schematic were designed in KiCad and ordered on OSHPark
 
 Name | Symbol | Footprint | Purchase Link
 --- | --- | --- | ---
-Red LED | Device:LED | LED_THT:LED_D5.0mm | [LINK](https://www.digikey.com/en/products/detail/rohm-semiconductor/SLR-56VC3F/636991)
-10Ω | Device:R | 10Ω | [LINK](https://www.digikey.com/en/products/detail/ohmite/43F10R/257947)
-18Ω | Device:R | 18Ω | [LINK](https://www.digikey.com/en/products/detail/ohmite/42J18R/4295971)
+RGB LED | Device:LED_RGBK | LED_THT:LED_D5.0mm-4_RGB | [LINK](https://www.sparkfun.com/products/9264)
+150Ω | Device:R | 150Ω | [LINK](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_3?crid=376HQO3UGCP0Y&keywords=variety+of+resistors&qid=1677360743&sprefix=variety+of+resistors%2Caps%2C124&sr=8-3)
 180KΩ | Device:R | 180KΩ | [LINK](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX3SJ180K/2390251)
 3.7V Lipo Battery Connector | Connector:Conn_01x02_Female | JST_PH_S2B-PH-K_02x2.00mm_Angled | [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626) [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/PHR-2/608607)
 1N5817 Diode | SlimeVRMotherBoard-cache:Diode_1N5817 | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal | [LINK](https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770971)
@@ -88,24 +89,44 @@ Status Rail Connector | Connector:Conn_01x05_Female | fivePinConn | ---
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- SCHEMATIC -->
+## Schematic
 
+[![Block Diagram][block-diagram]]()
+[![schematic][schematic]]()
+
+
+<!-- PCB LAYOUT -->
+## PCB Layout
+
+
+
+<!-- DIMENSIONS -->
+## Dimensions
+
+PCB Dimensions: 71.394mm x 41.148mm
+
+<!-- Order Details -->
+## Order Details
+
+
+Note: A non-green (in this case, blue) PCB might take shipping 2 days longer
 
 <!-- CONTACT -->
 ## Contact
+1. Angela Hudak  
+    a. email: ach2414@rit.edu  
+    b. github: angelahudak  
 
-1. Angela Hudak
-    a. email: ach2414@rit.edu
-2. Corey S
-
-
-Project Link: [https://github.com/MSD-RIT-NASA](https://github.com/MSD-RIT-NASA)
-
-PCB Dimensions: 71.394mm x 41.148mm
+2. Corey Sheridan  
+    a. email: cjs5445@rit.edu  
+    b. angel8chocolate  
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[block-diagram]: images/schematic.png
+[block-diagram]: images/block_diagram.png
+[schematic]: images/schematic.png
 [front-3dview]: images/front_v1.PNG
 [back-3dview]: images/back_v1.PNG

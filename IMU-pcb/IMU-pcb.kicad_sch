@@ -1372,7 +1372,7 @@
     (uuid 2536c513-bcfb-4e03-8ff8-03250600c11f)
     (property "Reference" "R2" (id 0) (at 177.8 43.5442 90))
     (property "Value" "150" (id 1) (at 177.8 46.0811 90))
-    (property "Footprint" "PLANETS:150Ω" (id 2) (at 177.8 50.038 90)
+    (property "Footprint" "PLANETS:150Ohm" (id 2) (at 177.8 50.038 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 177.8 48.26 0)
@@ -1613,7 +1613,7 @@
     (uuid ad24cb45-f6bb-42de-a0e5-d559433b1b4f)
     (property "Reference" "R1" (id 0) (at 44.577 34.29 90))
     (property "Value" "180k" (id 1) (at 44.577 32.1111 90))
-    (property "Footprint" "PLANETS:180KΩ" (id 2) (at 44.577 36.068 90)
+    (property "Footprint" "PLANETS:180KOhm" (id 2) (at 44.577 36.068 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 44.577 34.29 0)
@@ -1840,10 +1840,10 @@
       (reference "J3") (unit 1) (value "AUX Sensor") (footprint "PLANETS:JST_XH_S05B-XH-A_05x2.50mm_Angled")
     )
     (path "/ad24cb45-f6bb-42de-a0e5-d559433b1b4f"
-      (reference "R1") (unit 1) (value "180k") (footprint "PLANETS:180KΩ")
+      (reference "R1") (unit 1) (value "180k") (footprint "PLANETS:180KOhm")
     )
     (path "/2536c513-bcfb-4e03-8ff8-03250600c11f"
-      (reference "R2") (unit 1) (value "150") (footprint "PLANETS:150Ω")
+      (reference "R2") (unit 1) (value "150") (footprint "PLANETS:150Ohm")
     )
     (path "/8bc4c9ea-311b-44b8-97ff-03520d1dcd65"
       (reference "S1") (unit 1) (value "SlideSwitch") (footprint "PLANETS:Wowoone_Slide_Switch_5mm")

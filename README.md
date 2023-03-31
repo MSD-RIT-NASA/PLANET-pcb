@@ -114,13 +114,11 @@ Note: A non-green (in this case, blue) PCB might take shipping 2 days longer
 
 <!-- CONTACT -->
 ## Contact
-1. Angela Hudak  
-    a. email: ach2414@rit.edu  
-    b. github: angelahudak  
+Name | Major | email | github | year
+--- | --- | --- | --- | ---
+Angela Hudak | CE | ach2414@rit.edu | angelahudak | 2023
+Corey Sheridan | CE | cjs5445@rit.edu | cjs5445 | 2023
 
-2. Corey Sheridan  
-    a. email: cjs5445@rit.edu  
-    b. angel8chocolate  
 
 
 <!-- MARKDOWN LINKS & IMAGES -->

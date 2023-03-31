@@ -219,6 +219,11 @@
       (net 7 "Net-(D3-Pad1)") (pintype "passive") (tstamp 59bcd6a4-70c5-40fc-8caa-7b914422f415))
     (pad "2" thru_hole circle (at 0 3.5 270) (size 2 2) (drill 0.762) (layers *.Cu *.Mask)
       (net 29 "D6") (pintype "passive") (tstamp a9732ccd-4c76-40e0-9c3c-5614a3c62ef1))
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/resistors.3dshapes/100K.STEP"
+      (offset (xyz 0 -1.6 1))
+      (scale (xyz 0.7 0.7 0.7))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "PLANETS:180KOhm" (layer "F.Cu")
@@ -251,6 +256,11 @@
       (net 1 "B+") (pintype "passive") (tstamp d9d60f6d-0408-4749-ac07-aa19b5ccff65))
     (pad "2" thru_hole circle locked (at 0 3.5 270) (size 2 2) (drill 0.762) (layers *.Cu *.Mask)
       (net 3 "Net-(R1-Pad2)") (pintype "passive") (tstamp a9cba064-7198-4bc2-bc5e-099eaa7a0808))
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/resistors.3dshapes/100K.STEP"
+      (offset (xyz 0 -1.6 1))
+      (scale (xyz 0.7 0.7 0.7))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_THT:LED_D5.0mm-4_RGB" (layer "F.Cu")
@@ -397,6 +407,11 @@
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 90 0 0))
     )
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/wemos-d1-mini.3dshapes/WEMOS-D1-mini.step"
+      (offset (xyz -17.8 -12.9 2.7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "PLANETS:BNO085" (layer "F.Cu")
@@ -469,6 +484,11 @@
     (pad "P2" thru_hole circle locked (at 10.16 -8.89 270) (size 3.2 3.2) (drill 2.5) (layers *.Cu *.Mask) (tstamp b75d43ab-536b-4228-bcce-1ee37d2d4e49))
     (pad "P3" thru_hole circle locked (at -10.16 8.89 270) (size 3.2 3.2) (drill 2.5) (layers *.Cu *.Mask) (tstamp e87bef75-835d-4f14-a0ca-d6d18da067ca))
     (pad "P4" thru_hole circle locked (at 10.16 8.89 270) (size 3.2 3.2) (drill 2.5) (layers *.Cu *.Mask) (tstamp 94c834e5-d63f-4189-90bb-4999748fcf6f))
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/BNO085.3dshapes/Adafruit BNO085 STEMMA QT.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "PLANETS:fivePinConn" (layer "F.Cu")
@@ -542,6 +562,11 @@
     (pad "2" thru_hole circle locked (at 0 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask)
       (net 4 "Net-(D1-Pad1)") (pinfunction "T2") (pintype "output") (tstamp 0ef0402b-a65e-47dd-8425-fa8a8a312002))
     (pad "3" thru_hole circle locked (at 4.8 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp b2645658-57e2-4a58-9145-468b2575e90d))
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/slide-switch.3dshapes/SPDT slide switch.IGS"
+      (offset (xyz 0 3 2.5))
+      (scale (xyz 0.8 0.8 0.8))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "PLANETS:JST_XH_S05B-XH-A_05x2.50mm_Angled" (layer "F.Cu")
@@ -742,6 +767,11 @@
       (net 6 "Net-(D1-Pad2)") (pinfunction "RB+") (pintype "output") (tstamp 83ce81f1-210f-49df-9bb0-6735ef119316))
     (pad "6" thru_hole circle locked (at 7 12) (size 2 2) (drill 1.2) (layers *.Cu *.Mask)
       (net 13 "unconnected-(U1-Pad6)") (pinfunction "RB-") (pintype "no_connect") (tstamp 6bd86863-cc8b-48ad-8084-8d1b271219cb))
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/tp4056.3dshapes/TP4056_Charging_Module_Type_C.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (layer "F.Cu")

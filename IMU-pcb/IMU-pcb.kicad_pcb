@@ -190,6 +190,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/JST-connector-2x2.00mm-angled.3dshapes/JST 2pin rightangle.stp"
+      (offset (xyz 4 -6.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "PLANETS:150Ohm" (layer "F.Cu")
@@ -648,6 +653,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "C:/Users/angel/Desktop/IMU-pcb/lib/3D models/JST-connector-5x2.50mm-angled.3dshapes/S5B-ZR_1x05_P1.50mm.STEP"
+      (offset (xyz 5 -3.3 0))
+      (scale (xyz 1.7 1.7 1.7))
+      (rotate (xyz -90 0 0))
     )
   )
 

@@ -34,6 +34,7 @@
       </ul>
     </li>
     <li><a href="#Component List">Component List</a></li>
+    <li><a href="#block-diagram">Block Diagram</a></li>
     <li><a href="#schematic">Schematic</a></li>
     <li><a href="#pcb-layout">PCB Layout</a></li>
     <li><a href="#dimensions">Dimensions</a></li>
@@ -49,6 +50,7 @@
 
 Project Link: [https://github.com/MSD-RIT-NASA](https://github.com/MSD-RIT-NASA)
 
+This PCB was created for the intention to be used with the Gamification and Performanced Based Monitoring of Sensorimotor Activities project with NASA. This project, also known as PLANETs, is being developed by a Multidiciplinary Team at RIT. The objective of the project is to train an astronauts sense of blance when they return from long suspended time in space or to adapt themselves to a new planet's gravity. The game was meant to be a fun and competitive way to train the balance and activly collect and calculate data on their performace. These sensors interface with the SlimeVR program to create a skeleton that configures a persons center of balance, and creates a score. Another sensor is used under a balance board to relay the rotation of the board to the game. The game reflects a position back to the player in order to encourage them to adjust the angle of the balance board according to the game. The game awards the adjusted balance with game points, and negates points when they do not accuratly move the board. 
 
 [![Front of PCB][front-3dview]]()
 [![Back of PCB][back-3dview]]()
@@ -89,16 +91,20 @@ Status Rail Connector | Connector:Conn_01x05_Female | fivePinConn | ---
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<!-- BLOCK DIAGRAM -->
+## Block Diagram
+[![Block Diagram][block-diagram]]()
+
+
 <!-- SCHEMATIC -->
 ## Schematic
-
-[![Block Diagram][block-diagram]]()
 [![schematic][schematic]]()
 
 
 <!-- PCB LAYOUT -->
 ## PCB Layout
-
+[![pcb-layout][pcb-layout]]()
 
 
 <!-- DIMENSIONS -->
@@ -108,9 +114,10 @@ PCB Dimensions: 71.394mm x 41.148mm
 
 <!-- Order Details -->
 ## Order Details
+[![order1][order1]]()
+[![order2][order2]]()
 
-
-Note: A non-green (in this case, blue) PCB might take shipping 2 days longer
+Note: A non-green (in this case, blue) PCB takes shipping 2 days longer
 
 <!-- CONTACT -->
 ## Contact
@@ -128,3 +135,6 @@ Corey Sheridan | CE | cjs5445@rit.edu | cjs5445 | 2023
 [schematic]: images/schematic.png
 [front-3dview]: images/front_v1.PNG
 [back-3dview]: images/back_v1.PNG
+[order1]: images/order.PNG
+[order2]: images/order2.PNG
+[pcb-layout]: images/pcb-layout.PNG

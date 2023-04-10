@@ -1,4 +1,4 @@
-<div id="top"></div>
+ <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -34,6 +34,11 @@
       </ul>
     </li>
     <li><a href="#Component List">Component List</a></li>
+    <li><a href="#block-diagram">Block Diagram</a></li>
+    <li><a href="#schematic">Schematic</a></li>
+    <li><a href="#pcb-layout">PCB Layout</a></li>
+    <li><a href="#dimensions">Dimensions</a></li>
+    <li><a href="#order details">Order Details</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -43,10 +48,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About the Project
 
-[![Block Diagram][block-diagram]]()
-<!-- [![Bottom of PCB][product-bottom]]() -->
+Project Link: [https://github.com/MSD-RIT-NASA](https://github.com/MSD-RIT-NASA)
 
-About the Project
+This PCB was created for the intention to be used with the Gamification and Performanced Based Monitoring of Sensorimotor Activities project with NASA. This project, also known as PLANETs, is being developed by a Multidiciplinary Team at RIT. The objective of the project is to train an astronauts sense of blance when they return from long suspended time in space or to adapt themselves to a new planet's gravity. The game was meant to be a fun and competitive way to train the balance and activly collect and calculate data on their performace. These sensors interface with the SlimeVR program to create a skeleton that configures a persons center of balance, and creates a score. Another sensor is used under a balance board to relay the rotation of the board to the game. The game reflects a position back to the player in order to encourage them to adjust the angle of the balance board according to the game. The game awards the adjusted balance with game points, and negates points when they do not accuratly move the board. 
 
 [![Front of PCB][front-3dview]]()
 [![Back of PCB][back-3dview]]()
@@ -57,10 +61,10 @@ About the Project
 
 ### Built With
 
-The pcb and schematic were designed in KiCad and ordered on OSHPark
+The pcb and schematic were designed in KiCad and ordered on JLCPCB
 
 * [KiCad](https://www.kicad.org/)
-* [OSHPark]()
+* [JLCPCB](https://jlcpcb.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -71,9 +75,8 @@ The pcb and schematic were designed in KiCad and ordered on OSHPark
 
 Name | Symbol | Footprint | Purchase Link
 --- | --- | --- | ---
-Red LED | Device:LED | LED_THT:LED_D5.0mm | [LINK](https://www.digikey.com/en/products/detail/rohm-semiconductor/SLR-56VC3F/636991)
-10Ω | Device:R | 10Ω | [LINK](https://www.digikey.com/en/products/detail/ohmite/43F10R/257947)
-18Ω | Device:R | 18Ω | [LINK](https://www.digikey.com/en/products/detail/ohmite/42J18R/4295971)
+RGB LED | Device:LED_RGBK | LED_THT:LED_D5.0mm-4_RGB | [LINK](https://www.sparkfun.com/products/9264)
+150Ω | Device:R | 150Ω | [LINK](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_3?crid=376HQO3UGCP0Y&keywords=variety+of+resistors&qid=1677360743&sprefix=variety+of+resistors%2Caps%2C124&sr=8-3)
 180KΩ | Device:R | 180KΩ | [LINK](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX3SJ180K/2390251)
 3.7V Lipo Battery Connector | Connector:Conn_01x02_Female | JST_PH_S2B-PH-K_02x2.00mm_Angled | [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626) [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/PHR-2/608607)
 1N5817 Diode | SlimeVRMotherBoard-cache:Diode_1N5817 | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal | [LINK](https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770971)
@@ -89,23 +92,49 @@ Status Rail Connector | Connector:Conn_01x05_Female | fivePinConn | ---
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+<!-- BLOCK DIAGRAM -->
+## Block Diagram
+[![Block Diagram][block-diagram]]()
+
+
+<!-- SCHEMATIC -->
+## Schematic
+[![schematic][schematic]]()
+
+
+<!-- PCB LAYOUT -->
+## PCB Layout
+[![pcb-layout][pcb-layout]]()
+
+
+<!-- DIMENSIONS -->
+## Dimensions
+
+PCB Dimensions: 71.394mm x 41.148mm
+
+<!-- Order Details -->
+## Order Details
+[![order1][order1]]()
+[![order2][order2]]()
+
+Note: A non-green (in this case, blue) PCB takes shipping 2 days longer
 
 <!-- CONTACT -->
 ## Contact
+Name | Major | email | github | year
+--- | --- | --- | --- | ---
+Angela Hudak | CE | ach2414@rit.edu | angelahudak | 2023
+Corey Sheridan | CE | cjs5445@rit.edu | cjs5445 | 2023
 
-1. Angela Hudak
-    a. email: ach2414@rit.edu
-2. Corey S
-
-
-Project Link: [https://github.com/MSD-RIT-NASA](https://github.com/MSD-RIT-NASA)
-
-PCB Dimensions: 71.394mm x 41.148mm
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[block-diagram]: images/schematic.png
+[block-diagram]: images/block_diagram.png
+[schematic]: images/schematic.png
 [front-3dview]: images/front_v1.PNG
 [back-3dview]: images/back_v1.PNG
+[order1]: images/order.PNG
+[order2]: images/order2.PNG
+[pcb-layout]: images/pcb-layout.PNG

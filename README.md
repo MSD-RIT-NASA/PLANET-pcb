@@ -78,7 +78,8 @@ Name | Symbol | Footprint | Purchase Link
 RGB LED | Device:LED_RGBK | LED_THT:LED_D5.0mm-4_RGB | [LINK](https://www.sparkfun.com/products/9264)
 150Ω | Device:R | 150Ω | [LINK](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_3?crid=376HQO3UGCP0Y&keywords=variety+of+resistors&qid=1677360743&sprefix=variety+of+resistors%2Caps%2C124&sr=8-3)
 180KΩ | Device:R | 180KΩ | [LINK](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX3SJ180K/2390251)
-3.7V Lipo Battery Connector | Connector:Conn_01x02_Female | JST_PH_S2B-PH-K_02x2.00mm_Angled | [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626) [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/PHR-2/608607)
+3.7V Lipo Battery| --- | --- | [LINK](https://www.digikey.com/en/products/detail/jauch-quartz/LP503759JU-PCM-2-WIRES-70MM/9560991)
+Battery Connector | Connector:Conn_01x02_Female | JST_PH_S2B-PH-K_02x2.00mm_Angled | [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-PH-K-S-LF-SN/926626) [LINK](https://www.digikey.com/en/products/detail/jst-sales-america-inc/PHR-2/608607)
 1N5817 Diode | SlimeVRMotherBoard-cache:Diode_1N5817 | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal | [LINK](https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770971)
 1N5817 Diode | SlimeVRMotherBoard-cache:Diode_1N5817 | Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal | [LINK](https://www.digikey.com/en/products/detail/stmicroelectronics/1N5817/770971)
 TP4056 Type-C | SlimeVRLibrary:4056Board | 4056Board | [LINK](https://www.amazon.com/gp/product/B07PZ6V937/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
@@ -117,7 +118,7 @@ PCB Dimensions: 71.394mm x 41.148mm
 [![order1][order1]]()
 [![order2][order2]]()
 
-Note: A non-green (in this case, blue) PCB takes shipping 2 days longer
+Note: A non-green (in this case, black) PCB takes shipping 2 days longer
 
 <!-- CONTACT -->
 ## Contact
